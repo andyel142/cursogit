@@ -5,5 +5,9 @@ entrar a la carpeta donde este guardado el proyecto
 para iniciar git: git init
 para ver el estado del repositorio: git status
 para agregar un archivo al index: git add archivo
-
+para agregar todos los archivos de la carpeta al index: git add -A
+para borrar un archivo: git rm --cached archivo
+agregar commit (cambios realizados en los archivos para recuperar estados):
+git commit -m "mensaje o titulo de los cambios realizados"
+para ver los commit: git log
 
