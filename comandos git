@@ -10,4 +10,15 @@ para borrar un archivo: git rm --cached archivo
 agregar commit (cambios realizados en los archivos para recuperar estados):
 git commit -m "mensaje o titulo de los cambios realizados"
 para ver los commit: git log
-
+al hacer un cambio agregar el archivo modificado con git add "archivo" y luego agregar el commit
+para regresar a un commit: git checkout codigo del commit
+para regresar al ultimo commit: git checkout master
+hacer reset soft: git reset --soft codigo del commit (borra solo los commit sin tocar el codigo)
+hacer reset mixed: git reset --mixed codigo del commit (borra los commit y codigo luego del commit al que se dirige)
+hacer reset hard: git reset --hard codigo del commit (elimina los commit y codigo que no este en el commit al que se dirige)
+ramas: se pueden crear areas de trabjo paralelas trabajando en una sin afectar otra permite trabajar a varios usuarios en ramas distintas y luego unir los cambios.
+para saber cuales son las ramas disponibles: git branch
+para crear una rama: git branch nombre de la nueva rama
+para cambiar de rama git checkout nombre de la rama
+fusionar ramas: cambiar a rama master git merge nombre de la rama
+borrar ramas: git branch nombre de rama -D
