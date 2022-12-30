@@ -1,0 +1,9 @@
+para crear un usuario en git: git config --global user.name "nombre"
+para saber que usuario esta trabajando: git config --global user.name
+para registrar el email: git config --global user.email "correo"
+entrar a la carpeta donde este guardado el proyecto
+para iniciar git: git init
+para ver el estado del repositorio: git status
+para agregar un archivo al index: git add archivo
+
+
