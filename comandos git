@@ -22,3 +22,6 @@ para crear una rama: git branch nombre de la nueva rama
 para cambiar de rama git checkout nombre de la rama
 fusionar ramas: cambiar a rama master git merge nombre de la rama
 borrar ramas: git branch nombre de rama -D
+clonar repositorio de github a pc local: copiar el link del proyecto, git clone link del repositorio, usar git add -A
+subir repositorio local a github: crear repositorio en github, copiar link del repositorio, git remote add origin link del repositorio, git remote -v para ver si todo salio bien
+subir el repositorio: git push -u origin master, se debe generar un token que sera la contraseña para poder ineractuar con github (settings/developer settings/personal access tokens)
